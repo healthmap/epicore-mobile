@@ -7,14 +7,6 @@ The following must be also be installed:
 - [iOS platform SDK](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html#requirements-and-support)
 - [Android platform SDK](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#requirements-and-support)
 
-- [cordova-icon](https://github.com/AlexDisler/cordova-icon) and [cordova-splash](https://github.com/AlexDisler/cordova-splash)
-```sh
-brew install imagemagic
-sudo npm install cordova-icon -g
-sudo npm install cordova-splash -g
-
-```
-
 
 ### Install Cordova
 
@@ -22,6 +14,17 @@ sudo npm install cordova-splash -g
 sudo npm install -g cordova
 
 ```
+
+
+### Install [cordova-icon](https://github.com/AlexDisler/cordova-icon) and [cordova-splash](https://github.com/AlexDisler/cordova-splash)
+
+```sh
+brew install imagemagic
+sudo npm install cordova-icon -g
+sudo npm install cordova-splash -g
+
+```
+
 
 ### Clone Epicore Mobile project
 
