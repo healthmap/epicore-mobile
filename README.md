@@ -7,6 +7,15 @@ The following must be also be installed:
 - [iOS platform SDK](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html#requirements-and-support)
 - [Android platform SDK](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#requirements-and-support)
 
+- [cordova-icon](https://github.com/AlexDisler/cordova-icon) and [cordova-splash](https://github.com/AlexDisler/cordova-splash)
+```sh
+brew install imagemagic
+sudo npm install cordova-icon -g
+sudo npm install cordova-splash -g
+
+```
+
+
 ### Install Cordova
 
 ```sh
@@ -85,4 +94,10 @@ Android setup TBD
 cordova run android
 
 ```
+
+### App Icon and Splash screen
+
+The icon.png and splash.png image files are automatically resized for the Cordova project. 
+
+Both image files must be perfectly square if you change them!!!
 
