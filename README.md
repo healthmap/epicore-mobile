@@ -67,7 +67,7 @@ cordova emulate android
 
 ### Run the app on iPhone
 
-Plug in iPhone, and setup Xcode using automatic signing with a valid apple developers account.
+Plug in the iPhone and setup Xcode using automatic signing with a valid apple developers account.
 
 Start Xcode, then open the project (File->Open) Epicore.xcodeproj in the directory platforms/ios/Epicore.xcodeproj
 
