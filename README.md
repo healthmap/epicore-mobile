@@ -36,28 +36,25 @@ cd epicore-mobile
 
 ```
 
-Also, edit www/js/app.js file and set app_mode to mobile_dev.
 
-```sh
-var app_mode = 'mobile_dev';
-
-```
-
-### Add Platforms
+### Add iOS and Android Platforms
 
 ```sh
 cordova platform add ios
 cordova platform add android
 ```
 
-### Clone Epicore repo
-
-Clone the Epicore web app repo into the www directory.
+### Clone the Epicore web app repo into the www directory.
 
 ```sh
 git clone https://github.com/healthmap/epicore.git www
 
 ```
+
+Also, edit www/js/app.js file and set app_mode to mobile_dev.
+
+var app_mode = 'mobile_dev';
+
 
 
 ### Test the app in the emulator
