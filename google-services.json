@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "67299923213",
+    "firebase_url": "https://epicore-195017.firebaseio.com",
+    "project_id": "epicore-195017",
+    "storage_bucket": "epicore-195017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67299923213:android:74fd49dd22bf33bf",
+        "android_client_info": {
+          "package_name": "org.epicore.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67299923213-q54mmd8iti6vmo3gua177dl9ufk4lk3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoZZBKIMdfYhoULpR-Zwwkph0IWyLpbiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
