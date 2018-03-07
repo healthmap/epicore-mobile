@@ -13,7 +13,8 @@
         "FCM_VERSION": "11.6.2"
       },
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-exclude-files": {}
+      "cordova-plugin-exclude-files": {},
+      "cordova-plugin-touchid": {}
     }
   },
   "dependencies": {
@@ -21,6 +22,7 @@
     "cordova-ios": "^4.5.4",
     "cordova-plugin-device": "^2.0.1",
     "cordova-plugin-exclude-files": "^0.2.2",
+    "cordova-plugin-touchid": "git+https://github.com/leecrossley/cordova-plugin-touchid.git",
     "cordova-plugin-whitelist": "^1.3.3",
     "phonegap-plugin-push": "^2.1.3"
   }

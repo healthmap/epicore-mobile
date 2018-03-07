@@ -28,6 +28,7 @@
     <platform name="android">
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
+    <plugin name="cordova-plugin-touchid" spec="https://github.com/leecrossley/cordova-plugin-touchid.git" />
     <engine name="ios" spec="^4.5.4" />
     <engine name="android" spec="^6.4.0" />
 </widget>
