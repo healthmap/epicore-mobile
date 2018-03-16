@@ -19,6 +19,7 @@
     <exclude-files pattern="**/.git" />
     <exclude-files pattern=".gitignore" />
     <exclude-files pattern="**/crontab" />
+    <exclude-files pattern="README.md" />
     <plugin name="cordova-plugin-device" spec="^2.0.1" />
     <plugin name="phonegap-plugin-push" spec="^2.1.3">
         <variable name="SENDER_ID" value="67299923213" />
