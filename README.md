@@ -51,10 +51,27 @@ git clone https://github.com/healthmap/epicore.git www
 
 ```
 
-Also, edit www/js/app.js file and set app_mode to mobile_dev.
+Also, edit www/js/epicoreConfig.js file and set app_mode to mobile_dev.
 
-var app_mode = 'mobile_dev';
+epicore_config.app_mode = 'mobile_dev';
 
+### Build the cordova app
+
+Change back to the Cordova FNY mobile app directory (epicore-mobile)
+
+#### Note: Need to increment the version code for android in config.xml (android-versionCode) for each new build.
+
+Build for iOS
+```sh
+cordova build ios
+
+```
+
+Build for Android
+```sh
+cordova build android
+
+```
 
 
 ### Test the app in the emulator
@@ -63,7 +80,7 @@ Note: each platform SDK must be installed first - see above.
 
 Start iOS Emulator
 ```sh
-cordova emulate ios --target='iPhone-6'
+cordova emulate ios --target='iPhone-X'
 
 ```
 
@@ -97,7 +114,6 @@ cordova run android
 
 ### App Icon and Splash screen
 
-The icon.png and splash.png image files are automatically resized for the Cordova project. 
+The icon.png and splash.png image files are automatically resized for the Cordova project.
 
 Both image files must be perfectly square if you change them!!!
-
