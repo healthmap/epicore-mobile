@@ -1,3 +1,5 @@
+# This repo has been archived
+
 # Apache Cordova setup for Epicore
 
 [Apached Cordova](https://cordova.apache.org/) is a mobile development framework used to deploy the Epicore web app for distribution as a mobile app.
